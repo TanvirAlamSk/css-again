@@ -1,8 +1,64 @@
+body {
+  font-family: "Heebo", sans-serif;
+}
 .contact-form {
   width: 500px;
   margin: auto;
+  box-shadow: 2px 3px 5px gray;
+  border-radius: 3px;
+  padding: 20px 30px;
+}
+h1 {
+  margin-bottom: 10px;
 }
 
 .subtitle {
   text-transform: capitalize;
+}
+strong {
+  color: blueviolet;
+}
+label {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 5px;
+  width: 460px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+textarea {
+  max-width: 500px;
+}
+.service-heading {
+  display: block;
+  margin-bottom: 8px;
+}
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+.btn {
+  width: 490px;
+  background-color: blueviolet;
+  font-size: 14px;
+  color: white;
+  display: block;
+  margin-top: 12px;
+  cursor: pointer;
+  font-weight: 500;
 }

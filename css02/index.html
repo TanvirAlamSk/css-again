@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS FORM</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="contact-form">
-      <h1 class="title">level up your brand</h1>
+      <h1 class="title">Level up your brand</h1>
       <p class="subtitle">
         Lorem ipsum dolor sit amet consectetur
         <strong>adipisicing elit.</strong>
@@ -27,16 +31,38 @@
           <input name="phone" type="number" placeholder="+1(555) 000-0000" />
         </div>
         <div>
-          <label>Name</label>
-          <input />
+          <label>how can we help</label>
+          <textarea
+            name="message"
+            type="text"
+            placeholder="Message"
+            cols="30"
+            rows="8"
+          ></textarea>
         </div>
         <div>
-          <label>Name</label>
-          <input />
+          <label class="service-heading">Service</label>
+          <div class="service-list">
+            <div>
+              <input name="service" type="checkbox" value="website design" />
+              <label>Website Design</label>
+            </div>
+            <div>
+              <input name="service" type="checkbox" value="ui/ux design" />
+              <label>UI/UX Design</label>
+            </div>
+            <div>
+              <input name="service" type="checkbox" value="user research" />
+              <label>User Research</label>
+            </div>
+            <div>
+              <input name="service" type="checkbox" value="content creation" />
+              <label>Content Creation</label>
+            </div>
+          </div>
         </div>
         <div>
-          <label>Name</label>
-          <input />
+          <input class="btn" name="button" type="button" value="Submit" />
         </div>
       </form>
     </div>
